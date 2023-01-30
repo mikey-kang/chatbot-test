@@ -36,15 +36,5 @@ def main():
 # 		st.text_area("챗봇: ", value=result)
 		st.text_area("챗봇: ", value="성공")
 
-	st.sidebar.subheader("개발자")
-	st.sidebar.text("김은진, jyej3154@snu.ac.kr")
-	st.sidebar.text("서울대학교 언어학과 석사과정")
-
-	st.subheader("참조")
-	st.markdown("kogpt2 기반 챗봇: https://github.com/haven-jeon/KoGPT2-chatbot")
-	st.markdown("pytorch lightning: https://www.pytorchlightning.ai/")
-	st.markdown("huggingface transformers: https://huggingface.co/")
-	st.markdown("wellness dataset: https://aihub.or.kr/keti_data_board/language_intelligence")
-
 if __name__ == '__main__':
 	main()
