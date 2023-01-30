@@ -6,13 +6,13 @@ import streamlit as st
 def main():
 
     # Title
-    st.title("한국어 정신건강 상담 챗봇")
+    st.title("수아 Version 1.0.0")
     st.subheader("")
     st.markdown("""
-        🙂 wellness 챗봇 데이터(AI hub)와 일상대화 챗봇 데이터(github,@songys)을 kogpt2(skt)에 fine-tuning한 챗봇입니다.
+        AI 챗봇 수아의 1.0.0 Version입니다👩🏻‍⚕️
         """
         """
-        💜 각 챗봇 데이터의 감정sentiment 정보를 함께 생성하도록 학습하여 사용자에게 위로와 공감을 주도록 하였습니다.
+        수아와 대화를 하며, 위로와 공감을 을 받아보세요😊
         """)
 
     st.subheader("챗봇과 대화해보세요!")
@@ -28,12 +28,13 @@ def main():
     sampling=st.sidebar.checkbox("do sampling", value=False)
     
     
-    st.sidebar.subheader("About App")
-    st.sidebar.text("Streamlit")
+    st.sidebar.subheader("(주)아몬디")
+    st.sidebar.text("Copyright 2023. amondy Inc. All rights reserved.")
     
-#     if st.button("전송"):
-#         result = chat(utterance,maxlen,numbeams,sampling,topk,ngramsize,temp)
-    st.text_area("챗봇: ", value=result)
+    if st.button("전송"):
+# 	result = chat(utterance,maxlen,numbeams,sampling,topk,ngramsize,temp)
+#     	st.text_area("챗봇: ", value=result)
+	st.text_area("챗봇: ", value="성공")
 
     st.sidebar.subheader("개발자")
     st.sidebar.text("김은진, jyej3154@snu.ac.kr")
