@@ -13,11 +13,9 @@ def main():
 		"""
 		"""
 		수아와 대화를 하며, 위로와 공감을 받아보세요😊
-	""")
+		""")
 
-	st.subheader("챗봇과 대화해보세요!")
-
-	utterance = st.text_input("나: ", "")
+	utterance = st.text_input("나: ")
 
 	st.sidebar.subheader("Generation Settings")
 	maxlen=st.sidebar.slider("max length of the sequence", 30, 60,value=50)
