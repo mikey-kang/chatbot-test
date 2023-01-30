@@ -31,10 +31,10 @@ def main():
     st.sidebar.subheader("(주)아몬디")
     st.sidebar.text("Copyright 2023. amondy Inc. All rights reserved.")
     
-    if st.button("전송"):
-# 	result = chat(utterance,maxlen,numbeams,sampling,topk,ngramsize,temp)
+	if st.button("전송"):
+# 		result = chat(utterance,maxlen,numbeams,sampling,topk,ngramsize,temp)
 #     	st.text_area("챗봇: ", value=result)
-	st.text_area("챗봇: ", value="성공")
+		st.text_area("챗봇: ", value="성공")
 
     st.sidebar.subheader("개발자")
     st.sidebar.text("김은진, jyej3154@snu.ac.kr")
