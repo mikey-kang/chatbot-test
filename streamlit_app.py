@@ -17,7 +17,7 @@ def main():
 
 	st.subheader("챗봇과 대화해보세요!")
 
-	utterance = st.text_input("나: ", "오늘은 어떤 기분이신가요?")
+	utterance = st.text_input("나: ", "")
 
 	st.sidebar.subheader("Generation Settings")
 	maxlen=st.sidebar.slider("max length of the sequence", 30, 60,value=50)
