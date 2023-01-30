@@ -31,8 +31,8 @@ def main():
 
 	if st.button("전송"):
 # 		result = chat(utterance,maxlen,numbeams,sampling,topk,ngramsize,temp)
-# 		st.text_area("챗봇: ", value=result)
-		st.text_area("챗봇: ", value="성공")
+# 		st.text_area("수: ", value=result)
+		st.text_area("수아: ", value="성공")
 
 if __name__ == '__main__':
 	main()
